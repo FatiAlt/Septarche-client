@@ -1,3 +1,3 @@
 export const Authentification = () => {
-    return (<h1><Connexion>Connexion</Connexion></h1>)
+    return (<h1>Connexion</h1>)
 }

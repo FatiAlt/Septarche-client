@@ -1,3 +1,3 @@
 export const Navigation = () => {
-    Return (<navigator>Navigation</navigator>)
+    return (<navigation>Navigation</navigation>)
 }
