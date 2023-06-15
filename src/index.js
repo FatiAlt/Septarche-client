@@ -25,8 +25,8 @@ root.render(
       <Route path='/' element={<App/>}></Route>
       <Route path='/foot' element={<Footer/>}></Route>
       <Route path='/Authentification' element={<Authentification/>}></Route>
-      <Route path='Cart'element={<Cart/>}></Route>
-      <Route path='Page accueil'element={<HomePage/>}></Route>
+      <Route path='/Cart'element={<Cart/>}></Route>
+      <Route path='/accueil'element={<HomePage/>}></Route>
       <Route path='/sav' element={<ServiceClient/>}></Route>
       <Route path='articles'element={<Articles/>}></Route>
     </Routes>

@@ -1,23 +1,24 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-export const HomePage = () => {
-  return <h1>Page d'accueil</h1>;
-};
 
-export const Home = () => {
+
+export const HomePage = () => {
 const [articles, setArticles] = useState([]);
 
 
    useEffect(() => {
-    loadUsers();
+    const loadArticles = async () => {
+      const result = await axios.get("http://localhost:8090/api/article");
+     setArticles(result.data);
+    }
+    loadArticles();
    }, []);
-   const loadUsers = async () => {
-     const result = await axios.get("http://localhost:8090/api/article");
-    setArticles(result.data);
 
+   
    return (
      <div className="py-4">
+      <h1>Page d'accueil</h1>
        <table className="table border shadow">
          <thead>
            <tr>
@@ -60,6 +61,6 @@ const [articles, setArticles] = useState([]);
      </div>
    );
            };
-          }
+
 
 

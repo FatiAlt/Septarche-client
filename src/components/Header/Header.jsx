@@ -1,5 +1,15 @@
+
+
+
 export const Header = () => {
-    return (<header>SEPTARCHE</header>)
+    return (<header>
+        <span>SEPTARCHE</span>
+
+
+    </header>)
+
 }
+
+
 
 
