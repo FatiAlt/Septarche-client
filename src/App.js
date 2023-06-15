@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/Header/Header';
+import { articles } from './components/Articles/Articles';
 
 function App() {
   return (
@@ -9,5 +9,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

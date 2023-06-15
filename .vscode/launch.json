@@ -28,7 +28,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Démarrer Microsoft Edge à l’utilisation de localhost",
-            "url": "http://localhost:3000",
+            "url": "http://localhost:8090",
             "webRoot": "${workspaceFolder}"
         }
     ]

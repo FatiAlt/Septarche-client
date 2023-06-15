@@ -10,10 +10,11 @@ import reportWebVitals from './reportWebVitals';
 import {Header } from './components/Header/Header';
 import { ServiceClient } from './pages/ServiceClient/ServiceClient';
 import { Footer } from './components/Footer/Footer';
-import { Navigation } from './components/Navigation/Navigation';
 import { Authentification } from './pages/Authentication/Authentication';
 import { Cart } from './pages/Cart/Cart';
 import { HomePage } from './pages/HomePage/HomePage';
+import { Articles } from './components/Articles/Articles';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,11 +24,11 @@ root.render(
     <Routes>
       <Route path='/' element={<App/>}></Route>
       <Route path='/foot' element={<Footer/>}></Route>
-      <Route path='/navigator' element={<Navigation/>}></Route>
       <Route path='/Authentification' element={<Authentification/>}></Route>
       <Route path='Cart'element={<Cart/>}></Route>
       <Route path='Page accueil'element={<HomePage/>}></Route>
       <Route path='/sav' element={<ServiceClient/>}></Route>
+      <Route path='articles'element={<Articles/>}></Route>
     </Routes>
   </main>
  </BrowserRouter>
