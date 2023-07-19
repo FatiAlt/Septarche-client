@@ -16,7 +16,7 @@ const Search = ({ addToCart }) => {
       setIsLoading(true);
       try {
         const result = await axios.get()
-        http://localhost:8090/api/article/;
+        http://localhost:8080/api/article/;
 
         setArticles(result.data);
       } catch (error) {
