@@ -46,6 +46,7 @@ const Cards = () => {
                     <Card.Title>{article.designation}</Card.Title>
                     <Card.Text>{article.resume}</Card.Text>
                     <Card.Text>Prix : {article.prixTTC} €</Card.Text>
+                    <Card.Text>{article.format}</Card.Text>
 
                   </Card.Body>
                 </Card>

@@ -1,13 +1,13 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
 import Footer from './Footer';
 import  Search  from './Search';
-import Cards from './Cart';
+import Cards from './Cards';
+import HomePage from '../HomePage/HomePage';
 
-const HomePage = () => {
+
+const Books = () => {
     return (
-        <div className='homePage'>
-        <NavBar/>
+        <div className='books'>
         <Search/>
         <Cards/>
         <Footer/>
@@ -15,5 +15,4 @@ const HomePage = () => {
         </div>
     );
 };
-
 export default HomePage;

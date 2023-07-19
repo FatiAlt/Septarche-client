@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 
 
-{/* <nav class="navbar navbar-expand-lg bg-light">
+{ <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-coreui-toggle="collapse" data-coreui-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
       </ul>
     </div>
   </div>
-</nav> */}
+</nav> }
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);

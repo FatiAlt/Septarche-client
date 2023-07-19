@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="logo">
-                <h3>Sept Arche Librairie</h3>
+                <h3> Librairie Sept Arche</h3>
                 <h4>Nous contacter</h4>
               </div>
             </div>
